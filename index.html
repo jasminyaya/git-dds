@@ -5,7 +5,73 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+<<<<<<< HEAD
   
+=======
+  <style type="text/css">
+    body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+
+    /* Custom container */
+    .container-narrow {
+      margin: 0 auto;
+      max-width: 900px;
+    }
+    .container-narrow > hr {
+      margin: 30px 0;
+    }
+
+    /* Main marketing message and sign up button */
+    .jumbotron {
+      margin: 60px 0;
+      text-align: center;
+    }
+    .jumbotron h1 {
+      font-size: 72px;
+      line-height: 1;
+    }
+    .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
+    }
+
+    /* Supporting marketing content */
+    .marketing {
+      margin: 60px 0;
+    }
+    .marketing p + h4 {
+      margin-top: 28px;
+    }
+
+    .split-exercise {
+      margin-bottom: 20px
+    }
+
+    #task2 img {
+      width: 50%;
+    }
+
+    #blinking-text {
+      color: red;
+    }
+
+    .btn {
+      margin-bottom: 15px;
+    }
+    
+
+  </style>
+>>>>>>> Taking away the js and linking to it
 </head>
 <body>
   <div class="jumbotron">
@@ -99,16 +165,28 @@
           <h2>Team Member 2</h2>
 
           <h4>Name</h4>
+<<<<<<< HEAD
           <p>Sanna</p>
 
           <h4>Interests</h4>
           <p> eurovision
           </p>
           <h4>hamburgers</h4>
+=======
+          <p>Sanna.</p>
 
-          <p>Replace this text with your favourite food (ex: Canned beans)</p>
+          <h4>Interests</h4>
+          <p> Reading, drinking and training </p>
+          <h4>Favourite Food</h4>
+>>>>>>> Taking away the js and linking to it
+
+          <p>Popcorn!</p>
           <h4>Profile Picture</h4>
+<<<<<<< HEAD
           <img src="/Users/antonlozinski/Desktop/tatuering.jpg">
+=======
+          <img src="img_1894.jpg">
+>>>>>>> Taking away the js and linking to it
         </div>
       </div>
       <p>Perfect! Now you're probably wondering how to get your teammate's changes on your computer. Let the sharing begin!</p>
@@ -203,23 +281,12 @@
       <p>Once the conflicts are resolved, make sure that both of your laptops are in sync. Then high-five each other and yell out your <a href="http://www.youtube.com/watch?v=_QDAT1PlVyw" target="_blank">team battlecry.</a></p>
       <small>(If you haven't heard anyone in the class make those noises yet, then you're the first team to get here. Yay!)</small>
     </section>
-
     <hr>
   </div>
-
+	
   <!-- Yay! You've found me. -->
-  <script type="text/javascript">
-    window.onload = function() {
-      var node = document.getElementById('blinking-text');
-      setInterval(function() {
-        visibility = node.style.visibility;
-        if (visibility == "") {
-          node.style.visibility = "hidden";
-        } else {
-          node.style.visibility = "";
-        }
-      }, 800);
-    }
-  </script>
+<script type="text/javascript" src="js/main.js">
+</script>
+
 </body>
 </html>
